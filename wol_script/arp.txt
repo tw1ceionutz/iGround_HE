@@ -1,0 +1,17 @@
+Flags: X - disabled, I - invalid, H - DHCP, D - dynamic, P - published, 
+C - complete 
+ #    ADDRESS         MAC-ADDRESS       INTERFACE                              
+ 0 DC 192.168.0.169   28:6D:97:AF:AD:CC bridge                                 
+ 1 DC 192.168.0.21    B4:FB:E3:35:67:29 bridge                                 
+ 2 DC 192.168.0.178   56:6F:92:87:00:01 bridge                                 
+ 3 DC 192.168.0.23    78:D3:47:6E:D4:55 bridge                                 
+ 4 DC 192.168.0.108   F4:91:1E:C3:38:13 bridge                                 
+ 5 DC 192.168.0.100   00:04:A3:A4:97:19 bridge                                 
+ 6 DC 192.168.0.120   08:2E:5F:08:8E:42 bridge                                 
+ 7 DC 192.168.0.24    B0:F8:93:ED:CD:F9 bridge                                 
+ 8 DC 192.168.0.152   84:14:4D:13:89:A4 bridge                                 
+ 9 DC 192.168.0.104   A2:27:16:7B:4F:75 bridge                                 
+10 DC 192.168.0.193   CA:B3:11:14:3C:EF bridge                                 
+11 DC 192.168.0.170   5C:51:4F:80:81:B7 bridge                                 
+12 DC 192.168.0.107   6A:D5:13:8E:F2:6D bridge                                 
+
