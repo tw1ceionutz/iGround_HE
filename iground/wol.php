@@ -78,8 +78,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                         <h2 class="mb-5 tm-content-title">Automatizare Wake-on-lan:</h2>
                         <?php
                         include('Net/SSH2.php');
-                         $ssh = new Net_SSH2('192.168.0.1');
-                         if (!$ssh->login('ionutz', 'ionut1439')) {
+                         $ssh = new Net_SSH2('router');
+                         if (!$ssh->login('xxx', 'xxxxxxxx')) {
                             exit('Login Failed index.php');
                          }
                          $rez =  $ssh->exec('/ip arp print');
