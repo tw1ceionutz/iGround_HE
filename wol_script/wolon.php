@@ -69,8 +69,8 @@ $sec = "3";
                             echo "Calculatorul este deschis!";
                             echo "Am ajuns aici";
                             include('Net/SSH2.php');
-                            $ssh = new Net_SSH2('192.168.0.1');
-                            if (!$ssh->login('ionutz', 'ionut1439')) {
+                            $ssh = new Net_SSH2('router');
+                            if (!$ssh->login('xxxx', 'xxxxxxx')) {
                                 exit('Login Failed wolon.php ');
                             }
                             $rez =  $ssh->exec('/tool wol interface=bridge  mac=58:20:b1:41:b4:ab');
