@@ -1,2 +1,1 @@
-# iGound
-# iGround_InfoEducatie
+That's a readme :D
